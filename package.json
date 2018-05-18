@@ -39,8 +39,10 @@
   ],
   "devDependencies": {
     "accurapp-scripts": "^4.0.0-beta.1",
+    "babel-preset-accurapp": "^4.0.0-beta.1",
     "eslint-config-accurapp": "^4.1.0-beta.1",
     "react-styleguidist": "^7.0.14",
+    "webpack-blocks": "^1.0.0",
     "webpack-node-externals": "^1.7.2",
     "webpack-preset-accurapp": "^4.0.0-beta.1"
   },
