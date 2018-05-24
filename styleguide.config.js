@@ -1,8 +1,9 @@
 const path = require('path')
+const fs = require('fs')
 
 module.exports = {
   title: 'Accurat React Components',
-  template: 'src/index.html',
+  template: () => fs.readFileSync('src/index.html', 'utf-8'),
   showCode: true,
   editorConfig: {
     theme: 'oceanic-next',
