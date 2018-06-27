@@ -32,7 +32,6 @@ export default class FlexView extends React.Component {
     className: PropTypes.string,
     style: PropTypes.object,
   }
-
   static defaultProps = {
     className: '',
     style: {},
